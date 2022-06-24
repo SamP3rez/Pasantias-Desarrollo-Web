@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body> <!--Todo contenido dentro de esta etiqueta tiene que estar identado.-->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>7even</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>aprende con 7even</td>
+                <td>19,90$</td>
+            </tr>
+            <tr>
+                <td>Se un pro con 7even</td>
+                <td>39,90$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 59,80$</td>
+        </tfoot>
+    </table>
+    
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="40">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    
+    
+    
+    
+    
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10"  id="comentario" placeholder="Ingresa tu comentario..." name="comentario"></textarea>
+        <br>
+        <!--<input type="submit" /> Este actua solo para enviar-->
+        <button type="button">Tipo button</button> <!--Estos son mas personalizadas-->
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Cochino feliz</h6>
+    <p>Cochino feliz esta feliz.</p>//    Parrafos
+    <p>Cochino triste esta muy triste</p>
+    <hr>//    Linea horizontal.
+    <h2>Cochino felipe</h2>
+    <p>
+        Este texto es <span style="color:blue">mucho mas largo</span> y es para mostrar <br> la etiqueta de span!
+    </p>
+    <a target="_blank" href="https://www.google.com.br">Ir a gooogle</a> //Hiper vínculo
+    <!-- Esto es un comentaio-->
+    <br>
+    <img src="img/1.png" width="341" height="430"/>
+</body>
+</html>
